@@ -49,10 +49,8 @@ bash
 
 Instalar os pré-requisitos
 
-Git
-
+    Git
     Node.js (com npm)
-
     .NET SDK (ASP.NET Core)
 
 Rodar o back-end (API)
