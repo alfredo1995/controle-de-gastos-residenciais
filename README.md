@@ -42,6 +42,39 @@ O repositório contém dois diretórios principais:
 
 ### 1. Clonar o Repositório
 
-```bash
-git clone https://github.com/alfredo1995/controle-de-gastos-residenciais.git
-cd controle-de-gastos-residenciais
+bash
+            
+      git clone https://github.com/alfredo1995/controle-de-gastos-residenciais.git
+      cd controle-de-gastos-residenciais
+
+Instalar os pré-requisitos
+
+Git
+
+    Node.js (com npm)
+
+    .NET SDK (ASP.NET Core)
+
+Rodar o back-end (API)
+
+    cd ControleGastosAPI
+    dotnet restore
+    dotnet run
+
+    A API será iniciada em http://localhost:5275.
+
+Rodar o front-end
+
+    cd controle-gastos-front
+    npm install
+    npm run dev
+
+    O front-end ficará disponível em http://localhost:3000.
+
+Acessar a aplicação
+
+    Abra o navegador e acesse http://localhost:3000
+    O front-end se comunicará com a API em memória
+
+
+
