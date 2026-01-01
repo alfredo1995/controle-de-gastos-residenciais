@@ -1,4 +1,4 @@
-# 💸 Controle de Gastos Residenciais
+# Controle de Gastos Residenciais
 
 Sistema completo para controle de receitas, despesas e saldo de moradores de uma residência. Este projeto foi desenvolvido como trabalho acadêmico e integra front-end em React (Next.js + TypeScript) com back-end em ASP.NET Core (C#), utilizando armazenamento em memória.
 
